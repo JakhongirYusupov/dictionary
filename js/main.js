@@ -7,8 +7,13 @@ const urlRegex = '^(?!mailto:)(?:(?:http|https|ftp)://)(?:\\S+(?::\\S*)?@)?(?:(?
 const url = new RegExp(urlRegex, 'i');
 
 form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    GETDATA(INPUT.value);
+    try {
+        event.preventDefault();
+        GETDATA(INPUT.value);
+        renderAudio('');
+    } catch (error) {
+        console.log(error);
+    }
 })
 const GETDATA = async (value) => {
     try {
@@ -51,13 +56,12 @@ const GETDATA = async (value) => {
 const createElement = (value) => document.createElement(value);
 
 
-let audio = null;
-const renderAudio = (url) => {
-    audio = new Audio(url);
-}
+let audio = new Audio;
+const renderAudio = (url) => audio.src = url;
+
 AUDIO.addEventListener('click', () => {
     try {
-        audio.play();
+        if (audio.src) audio.play();
     } catch (error) {
     }
 })
