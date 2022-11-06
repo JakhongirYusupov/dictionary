@@ -1,0 +1,25 @@
+{
+  "name": "1-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakhongirYusupov/dictionary.git"
+  },
+  "keywords": [],
+  "author": "Jakhongir Yusupov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakhongirYusupov/dictionary/issues"
+  },
+  "homepage": "https://github.com/JakhongirYusupov/dictionary#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "install": "^0.13.0",
+    "npm": "^8.19.3"
+  }
+}

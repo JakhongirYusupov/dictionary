@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    padding: 0 65px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-search h1 {
+    text-align: center;
+}
+
+.header-search>div {
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+form>input {
+    width: 1104px;
+    height: 61px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(114, 111, 111, 0.25);
+    border-radius: 5px;
+    outline: none;
+    text-indent: 33px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+form>button {
+    width: 158px;
+    height: 61px;
+    margin-left: 42px;
+    background: #111111;
+    border-radius: 12px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.hero_main {
+    width: 1308px;
+    margin-top: 60px;
+    padding: 37px 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 14px;
+}
+
+.hero {
+    display: grid;
+    gap: 24px;
+}
+
+.hero>h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.hero>strong {
+    margin-left: 32px;
+}
+
+.audio {
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.audio>p {
+    margin-left: 18px;
+}
+
+.audio>div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0A0A0A;
+    border-radius: 50%;
+}
